@@ -5,7 +5,7 @@ from langchain_community.vectorstores import FAISS
 from sqlalchemy import create_engine
 
 # Define Database Connection
-DB_URL = os.getenv('DB_URL')
+DB_URL = "sqlite:///his_database.db"
 engine = create_engine(DB_URL)
 
 # Load Sentence Transformer Model
