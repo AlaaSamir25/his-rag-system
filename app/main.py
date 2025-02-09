@@ -7,7 +7,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 import google.generativeai as genai
 
 # Configure Gemini API
-genai.configure(api_key="Gemini-api-key")
+genai.configure(api_key=" Gemini-api-key ")
 
 app = FastAPI()
 
